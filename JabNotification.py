@@ -19,7 +19,7 @@ while True:
     msg = ""
 
     for x in range(len(Dict['centers'])):
-        if (Dict['centers'][x]['sessions'][0]['min_age_limit'] == 18 and Dict['centers'][x]['sessions'][0]['available_capacity'] >= 1 ):
+        if (Dict['centers'][x]['sessions'][0]['min_age_limit'] == 45 and Dict['centers'][x]['sessions'][0]['available_capacity'] >= 40 ):
             locmsg = ( "\nPIN Code:       " +  str(Dict['centers'][x]['pincode']) + "\n" +
                 "Address:        " + Dict['centers'][x]['address'] + "\n" +
                 "Vaccine Name:   " + Dict['centers'][x]['sessions'][0]['vaccine'] + "\n" +
