@@ -37,6 +37,7 @@ while True:
     
     except ValueError:
         print("Response content is not valid JSON")
+        time.sleep(2000)
      
  
 
